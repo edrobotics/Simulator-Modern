@@ -53,4 +53,12 @@ public final class Constants {
   public static final int RIGHT_TRIGGER = 4;
   // Left joystick axes
   public static final int LEFT_STICK_X = 0;
+  
+  // Hardware configuration for intake and climb (teams: set these to your CAN IDs)
+  // Default values are placeholders; set to the correct IDs for your robot.
+  public static final int intakeMotorId = 3;
+  public static final boolean intakeConnected = false;
+
+  public static final int CLIMB_MOTOR_ID = 4;
+  public static final boolean CLIMB_CONNECTED = false;
 }
